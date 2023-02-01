@@ -1,0 +1,13 @@
+FROM python:3.9
+COPY . /
+WORKDIR /
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+RUN mkdir -p /recommender_models
+RUN mkdir -p /data
+RUN apt-get update && apt-get install -y netcat
+COPY /recommender/recommender_models/svd_model.pickle /recommender_models/svd_model.pickle
+COPY /recommender/data/ /data/
+EXPOSE 8082
+ENTRYPOINT [ "python" ]
+CMD [ "recommender/app.py" ]

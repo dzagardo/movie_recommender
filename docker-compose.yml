@@ -1,0 +1,216 @@
+version: '3'
+
+services:
+  prometheus:
+    build:
+      context: .
+      dockerfile: Dockerfile-prometheus
+    container_name: prometheus
+    restart: unless-stopped
+    volumes:
+      - ./prometheus/:/etc/prometheus/
+      - ./monitoring/vols/prom:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    expose:
+      - 9090
+    network_mode: host
+
+  grafana:
+    container_name: grafana
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile-grafana
+    depends_on:
+      - prometheus
+    expose:
+      - "3001"
+    ports: 
+      - "3001:3000"
+    volumes:
+      - ./monitoring/vols/graf:/var/lib/grafana
+    environment:
+      - GF_USERS_ALLOW_SIGN_UP=false
+
+  cadvisor:
+    image: 'google/cadvisor:latest'
+    container_name: cadvisor
+    restart: unless-stopped
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk:/dev/disk/:ro
+    ports:
+    - '18080:8080'
+
+  # dem:
+  #   image: quaide/dem:latest
+  #   container_name: dem
+  #   restart: always
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #     - ./configuration/dem/conf.yml:/app/conf.yml
+
+  node-exporter:
+    image: quay.io/prometheus/node-exporter:latest
+    restart: unless-stopped
+    #       prom/node-exporter
+    container_name: nodeexporter
+    expose:
+      - 9100
+    network_mode: host
+  
+  load-balancer:
+    container_name: ml-prod-load-balancer
+    hostname: load-balancer
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile-load_balancer
+    expose:
+      - 8082
+    volumes:
+      - ./logvolume01:/var/log
+    depends_on:
+      - recommender-a 
+      - recommender-b
+    network_mode: host
+
+  modeldb-backend:
+    image: vertaaiofficial/modeldb-backend:2.0.8.1
+    container_name: "modeldb-backend"
+    restart: unless-stopped
+    expose:
+      - "8085"
+      - "8086"
+    ports:
+      - "8085:8085"
+      - "8086:8086"
+    networks:
+      - modeldb_network
+    environment:
+      - VERTA_MODELDB_CONFIG:/config/config.yaml
+      - LIQUIBASE_MIGRATION:true
+    volumes:
+      - ./backend/config:/config/
+      - ./data/artifact-store:/artifact-store/
+
+  modeldb-proxy:
+    image: vertaaiofficial/modeldb-proxy:2.0.8.1
+    container_name: "modeldb-proxy"
+    restart: unless-stopped
+    environment:
+      MDB_ADDRESS: "modeldb-backend:8085"
+      SERVER_HTTP_PORT: "8080"
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - modeldb-backend
+    networks:
+      - modeldb_network
+
+  modeldb-graphql:
+    image: vertaaiofficial/modeldb-graphql:2.0.8.1
+    container_name: "modeldb-graphql"
+    restart: unless-stopped
+    environment:
+      MDB_ADDRESS: "modeldb-backend:8085"
+      SERVER_HTTP_PORT: "4000"
+      QUERY_PATH: "/api/v1/graphql/query"
+    expose:
+      - "4000"
+    ports:
+      - "4000:4000"
+    depends_on:
+      - modeldb-backend
+    networks:
+      - modeldb_network
+
+  modeldb-frontend:
+    image: vertaaiofficial/modeldb-frontend:2.0.8.2
+    container_name: "modeldb-frontend"
+    restart: unless-stopped
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - modeldb-proxy
+      - modeldb-graphql
+    environment:
+      DEPLOYED: "yes"
+      BACKEND_API_PROTOCOL: "http"
+      BACKEND_API_DOMAIN: "modeldb-webapp:3000"
+      MDB_ADDRESS: http://modeldb-proxy:8080
+      ARTIFACTORY_ADDRESS: http://modeldb-backend:8086
+      GQL_ADDRESS: http://modeldb-graphql:4000
+    networks:
+      - modeldb_network
+
+  modeldb-postgres:
+    image: postgres
+    container_name: "modeldb-postgres"
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      PGDATA: /var/lib/postgresql/data/pgdata
+    networks:
+      - modeldb_network
+    volumes:
+      - ./data/pgdata:/var/lib/postgresql/data/pgdata
+
+  recommender-a:
+    container_name: ml-prod-recommender-a
+    restart: unless-stopped
+    hostname: model-a-host
+    build:
+      context: .
+      dockerfile: Dockerfile-recommender
+    ports:
+      - "7004:8081"
+    volumes:
+      - ./logvolume02:/var/log
+    depends_on:
+      - modeldb-proxy
+      - modeldb-backend
+      - modeldb-frontend
+      - modeldb-graphql
+      - modeldb-postgres
+  recommender-b:
+    container_name: ml-prod-recommender-b
+    restart: unless-stopped
+    hostname: model-b-host
+    build:
+      context: .
+      dockerfile: Dockerfile-recommender
+    ports:
+      - "7005:8081"
+    volumes:
+      - ./logvolume03:/var/log
+    depends_on:
+      - modeldb-proxy
+      - modeldb-backend
+      - modeldb-frontend
+      - modeldb-graphql
+      - modeldb-postgres
+  am-children-counter:
+    container_name: am-children-counter
+    restart: unless-stopped
+    hostname: am-children-counter
+    build:
+      context: .
+      dockerfile: Dockerfile-am-children-counter
+    expose:
+      - 8766
+    network_mode: host
+networks:
+  modeldb_network:
+volumes:
+  logvolume01: {}
+  logvolume02: {}
+  logvolume03: {}

@@ -1,0 +1,1001 @@
+user_id,age,occupation,gender
+129,10,K-12 student,F
+189,14,scientist,M
+395,12,K-12 student,M
+488,16,scientist,M
+532,9,K-12 student,M
+553,15,sales/marketing,M
+585,9,K-12 student,F
+737,12,college/grad student,M
+748,11,K-12 student,M
+866,16,K-12 student,M
+885,13,K-12 student,M
+926,13,K-12 student,M
+978,11,sales/marketing,F
+1050,8,K-12 student,F
+1210,8,K-12 student,M
+1246,9,scientist,F
+1311,10,homemaker,F
+1455,10,K-12 student,M
+1517,8,college/grad student,F
+1688,15,homemaker,M
+1721,12,K-12 student,M
+2042,9,sales/marketing,M
+2109,16,K-12 student,M
+2222,8,sales/marketing,M
+2276,8,K-12 student,M
+2338,11,K-12 student,F
+2413,13,K-12 student,M
+2565,15,homemaker,F
+2697,16,K-12 student,F
+2713,11,scientist,M
+2724,12,sales/marketing,M
+2728,9,homemaker,F
+2985,15,K-12 student,M
+3000,14,self-employed,F
+3054,12,K-12 student,M
+3275,8,K-12 student,M
+3281,15,self-employed,F
+3296,14,homemaker,M
+3560,12,scientist,M
+3573,10,sales/marketing,M
+3623,9,K-12 student,M
+3640,11,homemaker,M
+3740,15,homemaker,F
+3763,10,artist,F
+3847,8,technician/engineer,M
+3980,15,homemaker,F
+4045,11,homemaker,F
+4055,8,sales/marketing,M
+4305,9,K-12 student,M
+4342,9,scientist,M
+4350,9,K-12 student,M
+4470,11,K-12 student,F
+4537,16,homemaker,M
+4595,15,K-12 student,M
+4712,11,K-12 student,M
+4736,12,homemaker,M
+5034,9,K-12 student,M
+5271,9,scientist,M
+5380,14,college/grad student,F
+5416,13,unemployed,M
+5536,16,K-12 student,M
+5537,14,self-employed,M
+5696,13,K-12 student,M
+5830,13,K-12 student,M
+5965,15,college/grad student,M
+6046,12,sales/marketing,M
+6047,13,homemaker,F
+6162,14,K-12 student,M
+6238,14,K-12 student,M
+6258,8,K-12 student,F
+6378,9,K-12 student,M
+6493,9,K-12 student,M
+6608,8,K-12 student,M
+6690,12,K-12 student,F
+6723,12,K-12 student,M
+6753,10,K-12 student,M
+6867,12,scientist,M
+6937,10,homemaker,F
+7102,12,K-12 student,M
+7220,16,K-12 student,M
+7239,10,homemaker,M
+7244,9,homemaker,F
+7396,11,K-12 student,M
+7484,9,homemaker,M
+7520,16,K-12 student,M
+7630,14,sales/marketing,M
+7760,15,artist,M
+7778,14,sales/marketing,F
+7786,14,K-12 student,M
+7833,14,K-12 student,M
+7863,8,scientist,M
+7927,8,K-12 student,M
+7963,8,sales/marketing,M
+7988,13,K-12 student,M
+8158,10,K-12 student,F
+8473,10,K-12 student,M
+8685,10,K-12 student,M
+8712,16,K-12 student,M
+8727,8,K-12 student,M
+8816,11,sales/marketing,M
+8829,12,sales/marketing,M
+8838,12,K-12 student,F
+8922,15,sales/marketing,M
+8945,12,scientist,M
+9167,10,K-12 student,M
+9287,12,K-12 student,F
+9434,12,sales/marketing,M
+9482,16,self-employed,F
+9531,13,K-12 student,F
+9655,13,K-12 student,F
+9948,11,sales/marketing,M
+9996,12,scientist,M
+10042,15,scientist,M
+10056,8,K-12 student,M
+10196,9,K-12 student,M
+10211,8,K-12 student,F
+10217,10,college/grad student,M
+10417,16,K-12 student,M
+10480,13,K-12 student,F
+10657,13,K-12 student,F
+10685,10,K-12 student,M
+10692,8,self-employed,M
+10758,9,customer service,M
+10874,16,K-12 student,M
+10930,11,scientist,M
+11024,9,K-12 student,M
+11101,13,K-12 student,M
+11288,14,sales/marketing,F
+11535,14,K-12 student,M
+11975,15,K-12 student,F
+12034,14,homemaker,F
+12036,13,homemaker,F
+12143,11,K-12 student,M
+12289,9,homemaker,F
+12348,16,K-12 student,M
+12481,11,scientist,M
+12488,8,self-employed,M
+12578,9,homemaker,F
+12612,9,K-12 student,F
+12730,13,K-12 student,M
+12750,14,K-12 student,M
+12841,13,K-12 student,M
+12893,10,K-12 student,M
+12938,12,K-12 student,M
+13077,15,homemaker,F
+13132,14,sales/marketing,M
+13315,14,K-12 student,M
+13601,11,sales/marketing,M
+13611,8,homemaker,M
+13825,12,artist,F
+13894,8,K-12 student,M
+13976,11,writer,M
+14180,11,sales/marketing,M
+14461,11,K-12 student,M
+14471,12,K-12 student,M
+14876,10,K-12 student,F
+14900,14,K-12 student,M
+14901,14,K-12 student,M
+129,10,K-12 student,F
+189,14,scientist,M
+395,12,K-12 student,M
+488,16,scientist,M
+532,9,K-12 student,M
+553,15,sales/marketing,M
+585,9,K-12 student,F
+737,12,college/grad student,M
+748,11,K-12 student,M
+866,16,K-12 student,M
+885,13,K-12 student,M
+926,13,K-12 student,M
+978,11,sales/marketing,F
+1050,8,K-12 student,F
+1210,8,K-12 student,M
+1246,9,scientist,F
+1311,10,homemaker,F
+1455,10,K-12 student,M
+1517,8,college/grad student,F
+1688,15,homemaker,M
+1721,12,K-12 student,M
+2042,9,sales/marketing,M
+2109,16,K-12 student,M
+2222,8,sales/marketing,M
+2276,8,K-12 student,M
+2338,11,K-12 student,F
+2413,13,K-12 student,M
+2565,15,homemaker,F
+2697,16,K-12 student,F
+2713,11,scientist,M
+2724,12,sales/marketing,M
+2728,9,homemaker,F
+2985,15,K-12 student,M
+3000,14,self-employed,F
+3054,12,K-12 student,M
+3275,8,K-12 student,M
+3281,15,self-employed,F
+3296,14,homemaker,M
+3560,12,scientist,M
+3573,10,sales/marketing,M
+3623,9,K-12 student,M
+3640,11,homemaker,M
+3740,15,homemaker,F
+3763,10,artist,F
+3847,8,technician/engineer,M
+3980,15,homemaker,F
+4045,11,homemaker,F
+4055,8,sales/marketing,M
+4305,9,K-12 student,M
+4342,9,scientist,M
+4350,9,K-12 student,M
+4470,11,K-12 student,F
+4537,16,homemaker,M
+4595,15,K-12 student,M
+4712,11,K-12 student,M
+4736,12,homemaker,M
+5034,9,K-12 student,M
+5271,9,scientist,M
+5380,14,college/grad student,F
+5416,13,unemployed,M
+5536,16,K-12 student,M
+5537,14,self-employed,M
+5696,13,K-12 student,M
+5830,13,K-12 student,M
+5965,15,college/grad student,M
+6046,12,sales/marketing,M
+6047,13,homemaker,F
+6162,14,K-12 student,M
+6238,14,K-12 student,M
+6258,8,K-12 student,F
+6378,9,K-12 student,M
+6493,9,K-12 student,M
+6608,8,K-12 student,M
+6690,12,K-12 student,F
+6723,12,K-12 student,M
+6753,10,K-12 student,M
+6867,12,scientist,M
+6937,10,homemaker,F
+7102,12,K-12 student,M
+7220,16,K-12 student,M
+7239,10,homemaker,M
+7244,9,homemaker,F
+7396,11,K-12 student,M
+7484,9,homemaker,M
+7520,16,K-12 student,M
+7630,14,sales/marketing,M
+7760,15,artist,M
+7778,14,sales/marketing,F
+7786,14,K-12 student,M
+7833,14,K-12 student,M
+7863,8,scientist,M
+7927,8,K-12 student,M
+7963,8,sales/marketing,M
+7988,13,K-12 student,M
+8158,10,K-12 student,F
+8473,10,K-12 student,M
+8685,10,K-12 student,M
+8712,16,K-12 student,M
+8727,8,K-12 student,M
+8816,11,sales/marketing,M
+8829,12,sales/marketing,M
+8838,12,K-12 student,F
+8922,15,sales/marketing,M
+8945,12,scientist,M
+9167,10,K-12 student,M
+9287,12,K-12 student,F
+9434,12,sales/marketing,M
+9482,16,self-employed,F
+9531,13,K-12 student,F
+9655,13,K-12 student,F
+9948,11,sales/marketing,M
+9996,12,scientist,M
+10042,15,scientist,M
+10056,8,K-12 student,M
+10196,9,K-12 student,M
+10211,8,K-12 student,F
+10217,10,college/grad student,M
+10417,16,K-12 student,M
+10480,13,K-12 student,F
+10657,13,K-12 student,F
+10685,10,K-12 student,M
+10692,8,self-employed,M
+10758,9,customer service,M
+10874,16,K-12 student,M
+10930,11,scientist,M
+11024,9,K-12 student,M
+11101,13,K-12 student,M
+11288,14,sales/marketing,F
+11535,14,K-12 student,M
+11975,15,K-12 student,F
+12034,14,homemaker,F
+12036,13,homemaker,F
+12143,11,K-12 student,M
+12289,9,homemaker,F
+12348,16,K-12 student,M
+12481,11,scientist,M
+12488,8,self-employed,M
+12578,9,homemaker,F
+12612,9,K-12 student,F
+12730,13,K-12 student,M
+12750,14,K-12 student,M
+12841,13,K-12 student,M
+12893,10,K-12 student,M
+12938,12,K-12 student,M
+13077,15,homemaker,F
+13132,14,sales/marketing,M
+13315,14,K-12 student,M
+13601,11,sales/marketing,M
+13611,8,homemaker,M
+13825,12,artist,F
+13894,8,K-12 student,M
+13976,11,writer,M
+14180,11,sales/marketing,M
+14461,11,K-12 student,M
+14471,12,K-12 student,M
+14876,10,K-12 student,F
+14900,14,K-12 student,M
+14901,14,K-12 student,M
+14931,15,scientist,M
+14962,9,K-12 student,M
+14967,12,K-12 student,M
+14971,11,K-12 student,M
+14989,15,K-12 student,M
+15073,16,K-12 student,M
+15223,14,K-12 student,M
+15440,16,K-12 student,M
+15457,15,sales/marketing,M
+15475,12,K-12 student,F
+15502,16,K-12 student,M
+15554,16,K-12 student,F
+15626,11,college/grad student,F
+15647,9,K-12 student,F
+15808,9,K-12 student,F
+15833,12,K-12 student,F
+16039,10,self-employed,F
+16057,9,K-12 student,M
+16063,12,K-12 student,M
+16136,14,homemaker,F
+16257,15,self-employed,F
+16261,8,artist,M
+16344,16,scientist,M
+16536,9,K-12 student,M
+16561,13,artist,M
+16624,10,K-12 student,M
+16757,9,college/grad student,F
+16889,16,artist,F
+16963,10,K-12 student,F
+16990,12,scientist,M
+17029,10,homemaker,F
+17183,15,homemaker,M
+17264,11,artist,M
+17325,15,homemaker,M
+17544,14,K-12 student,M
+17628,11,homemaker,F
+17840,10,K-12 student,M
+17872,10,homemaker,F
+18073,13,K-12 student,M
+18199,12,sales/marketing,F
+18295,16,sales/marketing,M
+18422,12,sales/marketing,M
+18439,15,K-12 student,F
+18480,9,K-12 student,M
+18618,14,K-12 student,M
+18713,15,scientist,M
+18794,15,college/grad student,M
+18847,13,homemaker,M
+18890,14,college/grad student,F
+18937,11,K-12 student,M
+18940,11,K-12 student,F
+18966,8,scientist,M
+19082,16,K-12 student,M
+19138,9,K-12 student,M
+19181,15,sales/marketing,M
+19245,14,artist,F
+19489,16,K-12 student,F
+19685,15,sales/marketing,M
+19754,8,K-12 student,M
+19868,13,K-12 student,M
+19964,13,K-12 student,F
+20125,13,K-12 student,M
+20249,8,K-12 student,M
+20326,9,homemaker,F
+20327,10,sales/marketing,M
+20357,12,K-12 student,M
+20456,15,K-12 student,M
+20572,11,K-12 student,M
+20639,14,K-12 student,M
+20689,15,K-12 student,M
+20696,13,K-12 student,M
+20712,12,homemaker,F
+20720,10,K-12 student,M
+20886,11,K-12 student,M
+20888,13,customer service,M
+20905,14,sales/marketing,M
+20935,11,homemaker,M
+20999,13,K-12 student,M
+21091,9,homemaker,M
+21105,15,K-12 student,M
+21214,16,homemaker,M
+21231,11,K-12 student,M
+21341,15,K-12 student,M
+21525,8,sales/marketing,M
+21557,13,scientist,M
+21650,11,K-12 student,M
+21740,10,scientist,F
+21814,14,K-12 student,M
+21857,10,K-12 student,M
+21884,12,sales/marketing,M
+21921,12,K-12 student,M
+21997,9,scientist,F
+22017,12,sales/marketing,M
+22029,8,K-12 student,F
+22136,10,homemaker,F
+22155,10,K-12 student,F
+22187,14,sales/marketing,M
+22313,14,scientist,M
+22315,10,scientist,M
+22320,16,sales/marketing,M
+22407,10,K-12 student,M
+22430,13,K-12 student,M
+22463,11,K-12 student,M
+22571,14,self-employed,M
+22609,14,K-12 student,M
+22813,14,scientist,M
+23018,16,K-12 student,M
+23286,13,K-12 student,M
+23425,14,K-12 student,F
+23566,14,college/grad student,M
+23577,9,K-12 student,M
+23662,9,self-employed,M
+23759,13,K-12 student,M
+23806,8,sales/marketing,M
+24258,10,self-employed,M
+24303,12,K-12 student,M
+24335,15,scientist,M
+24543,10,K-12 student,M
+24559,11,K-12 student,M
+24642,15,sales/marketing,M
+24772,9,artist,M
+24784,11,scientist,M
+24953,16,K-12 student,M
+24982,10,K-12 student,F
+25258,15,K-12 student,M
+25315,10,K-12 student,M
+25342,9,K-12 student,M
+25454,10,K-12 student,F
+25881,10,homemaker,F
+25884,14,sales/marketing,M
+25915,16,K-12 student,M
+26132,16,K-12 student,M
+26133,13,K-12 student,M
+26135,10,K-12 student,M
+26338,10,homemaker,M
+26344,13,scientist,M
+26376,9,homemaker,M
+26609,15,K-12 student,M
+26761,11,sales/marketing,M
+26990,13,sales/marketing,M
+27001,14,K-12 student,M
+27018,16,K-12 student,M
+27038,11,K-12 student,M
+27100,8,K-12 student,M
+27192,13,K-12 student,F
+27396,11,K-12 student,M
+27402,14,K-12 student,M
+27506,13,scientist,M
+27520,15,homemaker,F
+27740,13,K-12 student,M
+27813,8,K-12 student,F
+27875,10,self-employed,M
+27903,10,sales/marketing,M
+27921,15,K-12 student,M
+28372,12,K-12 student,M
+28390,16,K-12 student,M
+28396,12,K-12 student,M
+28437,11,K-12 student,M
+28521,14,K-12 student,M
+28523,10,K-12 student,M
+28676,15,K-12 student,M
+28721,11,sales/marketing,M
+28831,9,sales/marketing,F
+29006,15,K-12 student,M
+29007,16,college/grad student,F
+29049,15,scientist,M
+29051,10,K-12 student,M
+29235,12,K-12 student,M
+29353,11,K-12 student,M
+29401,16,K-12 student,M
+29486,16,K-12 student,M
+29711,13,K-12 student,M
+29783,14,homemaker,M
+29835,15,K-12 student,M
+30051,9,K-12 student,M
+30079,14,homemaker,F
+30101,16,self-employed,F
+30106,15,scientist,M
+30229,16,academic/educator,F
+30235,13,K-12 student,M
+30262,10,homemaker,F
+30378,10,customer service,M
+30401,9,K-12 student,F
+30435,8,K-12 student,F
+30450,10,homemaker,M
+30737,15,K-12 student,F
+30740,13,homemaker,F
+30748,12,K-12 student,M
+31002,15,self-employed,F
+31013,16,K-12 student,F
+31074,9,K-12 student,M
+31104,12,K-12 student,F
+31111,10,K-12 student,M
+31177,15,K-12 student,M
+31235,14,K-12 student,M
+31308,9,sales/marketing,M
+31668,14,sales/marketing,M
+31709,10,scientist,M
+31742,11,K-12 student,M
+31899,9,sales/marketing,M
+31941,8,scientist,M
+32060,10,K-12 student,F
+32081,13,K-12 student,M
+32101,16,K-12 student,M
+32120,12,self-employed,M
+32126,15,K-12 student,M
+32199,11,K-12 student,M
+32416,14,scientist,M
+32869,13,executive/managerial,M
+33066,11,sales/marketing,M
+33198,13,K-12 student,M
+33246,14,sales/marketing,M
+33301,10,K-12 student,F
+33310,15,scientist,M
+33342,16,scientist,M
+33359,15,scientist,F
+33374,13,K-12 student,M
+33435,10,homemaker,M
+33614,16,homemaker,M
+33640,9,K-12 student,M
+33691,16,K-12 student,M
+33860,16,homemaker,F
+33922,16,artist,F
+33944,12,K-12 student,M
+33958,12,K-12 student,M
+34011,14,homemaker,M
+34050,12,K-12 student,M
+34066,15,K-12 student,M
+34116,12,K-12 student,M
+34117,11,K-12 student,M
+34347,9,homemaker,M
+34388,14,K-12 student,M
+34457,10,sales/marketing,M
+34463,11,K-12 student,M
+34497,8,K-12 student,F
+34506,8,K-12 student,M
+34520,8,homemaker,M
+34524,16,self-employed,M
+34573,11,K-12 student,M
+34693,15,K-12 student,M
+34706,9,scientist,M
+34847,8,K-12 student,M
+34855,14,self-employed,F
+34897,15,scientist,M
+34984,13,K-12 student,M
+35080,13,customer service,M
+35112,8,K-12 student,M
+35319,8,K-12 student,F
+35592,13,K-12 student,M
+35682,10,K-12 student,M
+35710,10,scientist,F
+35738,16,K-12 student,M
+35788,13,K-12 student,M
+36022,11,K-12 student,M
+36177,9,scientist,F
+36366,8,sales/marketing,M
+36377,10,self-employed,M
+36395,15,K-12 student,M
+36447,13,college/grad student,F
+36528,16,K-12 student,M
+36619,16,scientist,M
+36841,8,artist,M
+36862,14,K-12 student,M
+37087,15,K-12 student,F
+37231,10,K-12 student,M
+37247,12,scientist,M
+37327,16,self-employed,F
+37336,15,K-12 student,M
+37357,13,K-12 student,F
+37621,11,customer service,M
+37782,12,scientist,M
+37899,9,lawyer,F
+37984,9,K-12 student,M
+38070,9,college/grad student,M
+38075,15,K-12 student,M
+38094,15,K-12 student,M
+38141,10,scientist,M
+38379,14,K-12 student,M
+38491,16,K-12 student,F
+38526,16,K-12 student,M
+38600,12,scientist,M
+38700,8,self-employed,M
+38763,12,K-12 student,M
+38824,10,artist,F
+38976,13,K-12 student,M
+39016,14,K-12 student,M
+39169,12,college/grad student,M
+39216,12,K-12 student,M
+39251,8,K-12 student,M
+39297,16,K-12 student,M
+39630,8,scientist,M
+39757,15,sales/marketing,F
+39760,9,sales/marketing,M
+39924,13,K-12 student,F
+40042,9,K-12 student,M
+40105,10,artist,M
+40389,8,K-12 student,M
+40421,12,K-12 student,M
+40431,15,artist,M
+40552,16,K-12 student,M
+40576,10,programmer,M
+40740,13,unemployed,M
+40796,13,sales/marketing,M
+41134,16,K-12 student,F
+41152,8,artist,M
+41191,15,clerical/admin,M
+41252,16,unemployed,M
+41303,15,artist,M
+41311,10,self-employed,F
+41349,11,K-12 student,M
+41641,9,scientist,M
+41911,14,K-12 student,F
+41921,10,K-12 student,M
+42057,10,K-12 student,M
+42160,15,K-12 student,M
+42180,13,scientist,M
+42256,11,scientist,F
+42396,9,K-12 student,M
+42412,14,homemaker,F
+42467,8,programmer,M
+42583,16,K-12 student,M
+42860,9,sales/marketing,F
+42878,15,K-12 student,M
+42889,9,K-12 student,M
+42950,14,sales/marketing,M
+43070,15,homemaker,F
+43170,11,customer service,M
+43289,14,K-12 student,M
+43439,8,K-12 student,M
+43724,13,homemaker,M
+43811,16,K-12 student,M
+43900,12,K-12 student,M
+43936,10,K-12 student,M
+44159,9,K-12 student,M
+44230,11,K-12 student,M
+44416,15,K-12 student,M
+44437,13,K-12 student,M
+44710,10,K-12 student,M
+44892,15,K-12 student,M
+44894,15,homemaker,M
+45121,16,K-12 student,M
+45146,8,homemaker,M
+45246,16,scientist,F
+45283,11,K-12 student,M
+45288,11,K-12 student,M
+45387,9,homemaker,M
+45524,8,K-12 student,F
+45548,15,K-12 student,M
+45590,11,K-12 student,M
+45633,13,K-12 student,M
+45689,16,K-12 student,M
+45716,8,sales/marketing,M
+45720,15,K-12 student,M
+45750,14,customer service,M
+45995,16,self-employed,M
+46118,15,K-12 student,F
+46360,16,K-12 student,M
+46425,14,self-employed,F
+46458,10,college/grad student,M
+46553,9,K-12 student,F
+46606,13,K-12 student,M
+46857,12,K-12 student,F
+46909,16,K-12 student,F
+46968,8,K-12 student,M
+47015,10,sales/marketing,M
+47201,11,K-12 student,M
+47241,9,scientist,M
+47477,11,K-12 student,F
+47573,16,scientist,M
+47578,16,homemaker,M
+47775,12,sales/marketing,M
+47917,11,K-12 student,M
+48036,10,sales/marketing,M
+48070,11,unemployed,F
+48107,15,sales/marketing,F
+48309,16,scientist,M
+48326,10,K-12 student,M
+48628,8,K-12 student,M
+48636,12,self-employed,M
+48653,9,K-12 student,M
+48658,10,sales/marketing,M
+48736,12,sales/marketing,M
+48760,12,college/grad student,M
+48784,15,K-12 student,F
+48872,11,scientist,F
+48873,8,K-12 student,M
+48891,8,homemaker,M
+48927,9,homemaker,M
+48931,8,sales/marketing,M
+49052,10,scientist,M
+49109,16,K-12 student,M
+49117,12,K-12 student,M
+49145,9,K-12 student,M
+49281,8,K-12 student,M
+49549,12,K-12 student,M
+49574,8,K-12 student,M
+49632,11,college/grad student,M
+49684,14,customer service,M
+49716,15,homemaker,F
+49941,10,K-12 student,M
+49958,14,homemaker,F
+50122,12,K-12 student,M
+50140,15,sales/marketing,M
+50286,12,K-12 student,M
+50324,14,K-12 student,F
+50332,13,K-12 student,F
+50637,16,customer service,M
+50712,15,sales/marketing,M
+50790,14,K-12 student,M
+50845,13,K-12 student,F
+50878,16,sales/marketing,M
+51018,15,artist,M
+51155,11,homemaker,F
+51177,10,K-12 student,M
+51328,13,homemaker,M
+51422,14,homemaker,M
+51503,8,K-12 student,F
+51727,12,scientist,M
+51854,14,K-12 student,M
+51875,14,K-12 student,M
+51979,9,K-12 student,M
+51981,9,scientist,M
+52097,12,K-12 student,M
+52334,16,homemaker,F
+52574,15,sales/marketing,M
+52608,14,K-12 student,M
+52624,8,scientist,F
+52657,9,scientist,M
+52674,11,sales/marketing,F
+52721,12,self-employed,F
+52838,12,K-12 student,M
+52893,15,K-12 student,M
+52895,16,K-12 student,M
+53003,15,K-12 student,M
+53096,9,self-employed,F
+53145,11,K-12 student,M
+53371,16,K-12 student,M
+53472,13,K-12 student,M
+53500,8,K-12 student,M
+53554,15,K-12 student,M
+53578,15,K-12 student,F
+53688,14,K-12 student,M
+53696,11,K-12 student,M
+53703,11,K-12 student,M
+53989,9,sales/marketing,M
+54012,15,K-12 student,M
+54014,9,homemaker,F
+54208,9,K-12 student,M
+54397,16,K-12 student,M
+54455,10,homemaker,F
+54563,11,scientist,M
+54565,8,homemaker,M
+54644,13,scientist,M
+54717,15,sales/marketing,F
+54754,11,lawyer,M
+54760,8,scientist,M
+54845,9,K-12 student,M
+54943,14,homemaker,M
+54965,16,K-12 student,M
+55239,14,K-12 student,M
+55295,15,homemaker,M
+55313,9,sales/marketing,M
+55401,13,homemaker,M
+55502,16,K-12 student,F
+55526,16,K-12 student,M
+55577,12,K-12 student,M
+55597,15,K-12 student,M
+55721,12,sales/marketing,M
+55770,13,K-12 student,F
+56042,12,K-12 student,M
+56232,15,K-12 student,M
+56378,11,K-12 student,M
+56402,15,homemaker,F
+56471,15,college/grad student,M
+56500,16,K-12 student,M
+56581,12,scientist,M
+56605,9,K-12 student,F
+56656,9,unemployed,M
+56867,12,sales/marketing,F
+56910,16,K-12 student,M
+56947,13,scientist,M
+57033,16,K-12 student,M
+57045,12,self-employed,F
+57079,12,college/grad student,F
+57083,12,K-12 student,M
+57158,8,K-12 student,M
+57268,13,sales/marketing,M
+57306,10,K-12 student,M
+57375,13,sales/marketing,M
+57376,8,K-12 student,M
+57517,9,K-12 student,M
+57526,12,K-12 student,M
+57638,13,K-12 student,M
+57650,10,customer service,M
+57658,11,homemaker,M
+57695,13,K-12 student,M
+57705,13,K-12 student,M
+57818,10,K-12 student,M
+57909,9,sales/marketing,M
+57991,16,K-12 student,M
+58040,11,homemaker,F
+58148,12,K-12 student,M
+58235,9,K-12 student,M
+58247,11,K-12 student,M
+58321,13,K-12 student,M
+58356,9,homemaker,M
+58520,11,college/grad student,F
+58558,8,K-12 student,M
+58642,14,K-12 student,M
+58646,9,K-12 student,M
+58673,16,homemaker,M
+58692,11,self-employed,F
+59168,16,self-employed,F
+59245,12,K-12 student,M
+59295,15,K-12 student,M
+59740,9,K-12 student,F
+59763,12,homemaker,M
+59964,13,K-12 student,M
+60145,8,K-12 student,M
+60319,14,K-12 student,M
+60479,10,homemaker,F
+60532,16,homemaker,M
+60608,14,K-12 student,M
+60635,9,homemaker,M
+60737,14,K-12 student,M
+60864,15,K-12 student,M
+60892,9,K-12 student,M
+60947,13,K-12 student,M
+60966,11,sales/marketing,M
+61017,9,K-12 student,M
+61211,14,K-12 student,F
+61237,8,K-12 student,M
+61328,15,sales/marketing,M
+61347,8,K-12 student,F
+61350,15,K-12 student,M
+61506,8,self-employed,M
+61607,8,K-12 student,F
+61705,9,scientist,M
+61907,13,college/grad student,M
+62100,10,K-12 student,M
+62137,12,K-12 student,M
+62188,9,K-12 student,M
+62196,13,K-12 student,F
+62225,10,K-12 student,M
+62286,16,college/grad student,M
+62315,11,K-12 student,M
+62373,11,academic/educator,M
+62449,15,college/grad student,M
+62459,15,scientist,F
+62463,10,K-12 student,M
+62465,11,K-12 student,M
+62497,11,scientist,M
+62522,9,K-12 student,M
+62847,8,K-12 student,M
+62920,14,K-12 student,M
+63090,15,K-12 student,F
+63186,15,K-12 student,M
+63467,8,homemaker,F
+63499,13,self-employed,F
+63648,14,K-12 student,M
+63740,16,K-12 student,M
+63769,11,self-employed,F
+63884,16,customer service,M
+64002,10,sales/marketing,M
+64167,10,sales/marketing,M
+64186,13,K-12 student,M
+64397,8,scientist,M
+64414,16,homemaker,M
+64840,16,homemaker,M
+65141,11,K-12 student,F
+65242,8,K-12 student,M
+65270,13,K-12 student,M
+65303,11,artist,F
+65347,12,K-12 student,M
+65415,16,self-employed,F
+65462,14,homemaker,F
+65483,13,K-12 student,M
+65642,10,K-12 student,M
+65778,15,K-12 student,M
+65971,12,K-12 student,F
+65996,12,K-12 student,M
+66258,13,self-employed,F
+66353,11,homemaker,F
+66376,11,K-12 student,F
+66393,14,K-12 student,M
+66445,15,K-12 student,F
+66460,11,scientist,M
+66679,15,K-12 student,F
+66792,8,K-12 student,F
+66985,8,homemaker,F
+67018,8,K-12 student,M
+67263,8,K-12 student,M
+67271,8,K-12 student,M
+67493,13,artist,M
+67560,13,homemaker,F
+67707,8,self-employed,M
+67814,15,self-employed,F
+67829,9,scientist,M
+67992,16,K-12 student,M
+68174,9,K-12 student,F
+68407,8,scientist,M
+68615,14,K-12 student,M
+68910,15,sales/marketing,M
+69014,14,K-12 student,M
+69274,15,K-12 student,M
+69289,9,K-12 student,M
+69392,13,sales/marketing,M
+69425,10,sales/marketing,M
+69560,12,K-12 student,M
+69666,10,K-12 student,M
+69701,15,sales/marketing,M
+69832,16,K-12 student,M
+69836,12,K-12 student,M
+69854,8,sales/marketing,M
+69952,12,K-12 student,M
+70039,12,K-12 student,F
+70044,15,scientist,M
+70046,8,clerical/admin,M
+70371,10,homemaker,M
+70447,11,sales/marketing,M
+70534,10,K-12 student,F
+70562,8,K-12 student,M
+70719,8,scientist,M
+70834,16,homemaker,M
+70907,15,sales/marketing,F
+70977,11,homemaker,F
+71140,14,K-12 student,M
+71337,12,homemaker,M
+71419,10,scientist,M
+71466,8,K-12 student,M
+71509,16,unemployed,M
+71568,10,homemaker,F
+71588,13,K-12 student,F
+71615,16,self-employed,F
+71880,14,writer,F
+72071,11,K-12 student,M
+72180,9,self-employed,F
+72283,8,K-12 student,M
+72350,13,homemaker,M
+72439,13,K-12 student,F
+72707,8,K-12 student,F
+72801,12,artist,M
+72892,9,sales/marketing,M
+72976,16,artist,F
+73001,8,clerical/admin,F
+73043,9,K-12 student,M
+73124,15,K-12 student,M
+73141,12,K-12 student,M
+73143,9,K-12 student,M
+73244,8,homemaker,M
+73260,14,K-12 student,M
+73445,10,artist,M
+73479,14,K-12 student,M
+73559,9,K-12 student,M
+73567,12,K-12 student,M
+73578,14,college/grad student,M
+73610,16,self-employed,F
+73781,14,K-12 student,M
+73865,9,K-12 student,M
+74262,9,homemaker,M
+74351,16,artist,M
+74479,8,self-employed,M
+74687,16,K-12 student,M
+74695,16,K-12 student,F
+74699,12,scientist,M
+74740,15,self-employed,F
+74764,13,K-12 student,M
+74840,8,sales/marketing,F
+74924,9,K-12 student,M
+74931,16,K-12 student,F
+75262,10,K-12 student,M
+75434,11,K-12 student,M
+75666,14,K-12 student,F
+75796,14,scientist,F
+76096,9,homemaker,M
+76101,13,K-12 student,M
+76154,11,K-12 student,M
+76356,9,K-12 student,M
+76459,13,K-12 student,M
+76519,10,K-12 student,M
+76596,9,executive/managerial,F
+76622,9,K-12 student,F
+76667,12,K-12 student,M
+76674,12,K-12 student,M

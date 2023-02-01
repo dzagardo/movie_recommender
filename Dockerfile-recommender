@@ -1,0 +1,13 @@
+FROM python:3.9
+COPY . /
+WORKDIR /
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+RUN mkdir -p /recommender_models
+RUN mkdir -p /data
+COPY /recommender/recommender_models/svd_model_a.pickle /recommender_models/svd_model_a.pickle
+COPY /recommender/recommender_models/svd_model_b.pickle /recommender_models/svd_model_b.pickle
+COPY /recommender/data/ /data/
+EXPOSE 8081
+ENTRYPOINT [ "python" ]
+CMD [ "recommender/ml_model.py" ]

@@ -1,0 +1,42 @@
+stages:
+  pull:
+    cmd: flask run --host=128.2.205.106 --port=8082
+    deps:
+    - model_training_and_evaluation_codes/model_training_pipe0.py
+    outs:
+    - model_training_and_evaluation_codes\data\kafka_ratings.txt
+  process:
+    cmd: python model_training_and_evaluation_codes\data_processing_pipe1.py model_training_and_evaluation_codes\data\kafka_ratings.txt model_training_and_evaluation_codes\data\
+    deps:
+    - model_training_and_evaluation_codes/data_processing_pipe1.py
+    - model_training_and_evaluation_codes\data\kafka_ratings.txt
+    outs:
+    - model_training_and_evaluation_codes/data
+  train + test:
+    cmd: python model_training_and_evaluation_codes/model_training_pipe2.py model_training_and_evaluation_codes/data
+    deps:
+    - model_training_and_evaluation_codes/data/RemappedData.csv
+    - model_training_and_evaluation_codes/model_training_pipe2.py
+    - model_training_and_evaluation_codes/train_svd.py
+    - model_training_and_evaluation_codes/train_svdpp.py
+    outs:
+    - model_training_and_evaluation_codes/svd_model.pickle
+    - model_training_and_evaluation_codes/svdpp_model.pickle
+    - script.sh
+  deploy:
+    cmd: circle ci
+    deps:
+    - recommender/app.py
+    - script.sh
+    outs:
+    - recommender/ml_model.py
+  recommend:
+    cmd: flask run --host=128.2.205.106 --port=8082
+    deps:
+    - recommender/app.py
+    - recommender/ml_model.py
+    outs:
+    - recommender/data/Telemetry_Online.csv
+  
+  
+

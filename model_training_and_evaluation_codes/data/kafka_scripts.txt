@@ -1,0 +1,12 @@
+2022-09-07T18:52:11,194627,GET /rate/the+manzanar+fishing+club+2012=4
+2022-09-07T18:52:16,56874,GET /rate/children+2006=3
+2022-09-07T18:53:26,225378,GET /rate/sweepers+1999=4
+2022-09-07T18:53:51,14243,GET /rate/home+alone+2+lost+in+new+york+1992=2
+2022-09-07T18:54:21,113057,GET /rate/the+manzanar+fishing+club+2012=4
+2022-09-07T18:55:35,159203,GET /rate/season+for+assassins+1975=2
+2022-09-07T18:58:39,211819,GET /rate/for+the+birds+2000=5
+2022-09-07T19:00:47,155588,GET /rate/the+bleeding+2009=4
+2022-09-07T19:01:12,66948,GET /rate/paths+of+hate+2011=4
+2022-09-07T19:02:17,6581,GET /rate/prinsessa+2010=4
+2022-09-07T19:02:17,6581,GET /rate/prinsessa+2010=4
+2022-09-07T19:01:12,66948,GET /rate/paths+of+hate+2011=4

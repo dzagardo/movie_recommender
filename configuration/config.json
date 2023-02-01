@@ -1,0 +1,5 @@
+{
+    "kafka_broker_ip": "128.2.204.215",
+    "kafka_movie_topic": "movielog4",
+    "chosen_recommender_model": "svd_model"
+}

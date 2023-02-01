@@ -1,0 +1,10 @@
+FROM python:3.9
+COPY . /
+WORKDIR /
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+RUN mkdir -p /data
+COPY /recommender/data/ /data/
+EXPOSE 8766
+ENTRYPOINT [ "python" ]
+CMD [ "recommender/feedback_analysis.py" ]

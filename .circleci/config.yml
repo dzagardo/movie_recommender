@@ -1,0 +1,40 @@
+version: 2.1
+orbs:
+  python: circleci/python@2.0.3
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/python:3.10.4
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+      - run:
+          name: Run tests
+          command: cd recommender; pytest; pytest --cov
+      - run:
+          name: Run model eval tests
+          command: cd model_training_and_evaluation_codes; pytest; pytest --cov
+  deploy:
+    docker:
+        - image: cimg/python:3.10.4
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "05:64:93:a7:32:2e:56:84:4b:d3:72:54:4f:df:5e:f8" #ssh keys added for VM
+      - run:
+          name: SSH & Deploy
+          command: ssh -oStrictHostKeyChecking=no -v $USER@$HOST -i ~/.ssh/circleci "./deploy.sh"
+      # - run:
+      #     name: Git pull the codebase
+      #     command: cd /home/team04/app; pwd; echo 'HERE IN THE VM'
+
+
+workflows:
+  sample:
+    jobs:
+      - build-and-test
+      - deploy:
+          filters:
+              branches:
+                only: main

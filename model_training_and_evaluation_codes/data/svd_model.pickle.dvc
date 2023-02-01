@@ -1,0 +1,4 @@
+outs:
+- md5: 6701477f41fb3bf79ffd0363f2773710
+  size: 53067007
+  path: svd_model.pickle
